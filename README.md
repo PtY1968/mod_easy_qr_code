@@ -44,7 +44,7 @@ You should have received a copy of the GNU General Public License along with thi
 
 Thank You:
 ----------
-- Niko Vinckel (http://extensions.joomla.org/extensions/owner/jamfx)
+- Niko Winckel (http://extensions.joomla.org/extensions/owner/jamfx)
     for inspiration and the base code
 
 Frequently Asked Questions:
