@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" client="site" method="upgrade">
+    <name>MOD_EASY_QR_CODE</name>
+    <author>Peter Szladovics</author>
+    <creationDate>30-Jan-2014</creationDate>
+    <license>GNU/GPL</license>
+    <authorEmail>peter.szladovics@myonline.hu</authorEmail>
+    <authorUrl>https://github.com/PtY1968/mod_easy_qr_code</authorUrl>
+    <version>1.0</version>
+    <description>MOD_EASY_QR_CODE_DESCRIPTION</description>
+    <files>
+        <filename module="mod_easy_qr_code">mod_easy_qr_code.php</filename>
+        <filename module="mod_easy_qr_code">helper.php</filename>
+        <filename module="mod_easy_qr_code">index.html</filename>
+        <folder module="mod_easy_qr_code">tmpl</folder>
+    </files>
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.mod_easy_qr_code.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.mod_easy_qr_code.sys.ini</language>
+    </languages>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="size" type="text" default="120" label="MOD_EASY_QR_CODE_SIZE" description="MOD_EASY_QR_CODE_SIZE_DESCRIPTION" />
+                <field name="margin" type="text" default="5" label="MOD_EASY_QR_CODE_MARGIN" description="MOD_EASY_QR_CODE_MARGIN_DESCRIPTION" />
+                <field name="protect" type="list" default="M" label="MOD_EASY_QR_CODE_ERRORLEVEL" description="MOD_EASY_QR_CODE_ERRORLEVEL_DESCRIPTION">
+                    <option value="L">MOD_EASY_QR_CODE_ELEVEL_L</option>
+                    <option value="M">MOD_EASY_QR_CODE_ELEVEL_M</option>
+                    <option value="Q">MOD_EASY_QR_CODE_ELEVEL_Q</option>
+                    <option value="H">MOD_EASY_QR_CODE_ELEVEL_H</option>
+                </field>
+                <field name="color" type="text" default="000000" label="MOD_EASY_QR_CODE_COLOR" description="MOD_EASY_QR_CODE_COLOR_DESCRIPTION" />
+                <field name="bgcolor" type="text" default="FFFFFF" label="MOD_EASY_QR_CODE_BGCOLOR" description="MOD_EASY_QR_CODE_BGCOLOR_DESCRIPTION" />
+                <field name="qr_text" type="textarea" default="" label="MOD_EASY_QR_CODE_TEXT" description="MOD_EASY_QR_CODE_TEXT_DESCRIPTION" />
+                <field name="align" type="list" default="center" label="MOD_EASY_QR_CODE_ALIGNMENT" description="MOD_EASY_QR_CODE_ALIGNMENT_DESCRIPTION">
+                    <option value="left">MOD_EASY_QR_CODE_ALIGN_LEFT</option>
+                    <option value="center">MOD_EASY_QR_CODE_ALIGN_MID</option>
+                    <option value="right">MOD_EASY_QR_CODE_ALIGN_RIGHT</option>
+                </field>
+                <field name="alt" type="text" default="" label="MOD_EASY_QR_CODE_ALTERNATE_STR" description="MOD_EASY_QR_CODE_ALTERNATE_STR_DESCRIPTION" />
+                <field name="moduleclass_sfx" type="text" default="" label="MOD_EASY_QR_CODE_CLASSFX" description="MOD_EASY_QR_CODE_CLASSFX_DESCRIPTION" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>

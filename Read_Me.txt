@@ -1,8 +1,19 @@
-mod_easy_qr_code
-================
+Language:	English, Hungarian
+Platform:	Joomla 3.x.x
+Author:		P. Szládovics (szladovics.peter@myonline.hu)
+Website:	https://github.com/PtY1968/mod_easy_qr_code
+Copyright:	Copyright (C) 2014
+License:	GNU/GPL http://www.gnu.org/licenses/gpl-3.0.html
 
-Joomla Easy QR-Code module
+Extension:	Easy QR-Code
+Name:		mod_easy_qr_code
+Type:		Joomla 3.+ Module
+Version:	1.0
+Created:	30/01/2014
+Updated:	31/01/2014
 
+
+Script Function:
 This extension provides a QR Code of your current URL or a custom text.
 
 It's free as always, so enjoy!
