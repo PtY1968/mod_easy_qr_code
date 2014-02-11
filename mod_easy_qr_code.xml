@@ -17,6 +17,8 @@
     <languages>
         <language tag="en-GB">language/en-GB/en-GB.mod_easy_qr_code.ini</language>
         <language tag="en-GB">language/en-GB/en-GB.mod_easy_qr_code.sys.ini</language>
+        <language tag="hu-HU">language/hu-HU/hu-HU.mod_easy_qr_code.ini</language>
+        <language tag="hu-HU">language/hu-HU/hu-HU.mod_easy_qr_code.sys.ini</language>
     </languages>
     <config>
         <fields name="params">
